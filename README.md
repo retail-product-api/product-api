@@ -57,7 +57,9 @@ GET ProductDetails
 
  Response: 200OK
 
+
  {
+ 
     "id": "13860428",
     
     "name": "The Big Lebowski (Blu-ray)",
@@ -69,14 +71,18 @@ GET ProductDetails
         "currency_code": "USD"
         
     }
+    
 }
 
 Update ProductPrice
 
 PUT localhost:8050/api/v1/products/13860428
 
+
 RequestBody:
+
 {
+
     "id": "13860428",
     
     "name": "The Big Lebowski (Blu-ray)",
@@ -88,6 +94,7 @@ RequestBody:
         "currency_code": "USD"
         
     }
+    
 }
 
 ResponseStatus: 200OK
