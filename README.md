@@ -59,10 +59,15 @@ GET ProductDetails
 
  {
     "id": "13860428",
+    
     "name": "The Big Lebowski (Blu-ray)",
+    
     "current_price": {
+    
         "value": "99.99",
+        
         "currency_code": "USD"
+        
     }
 }
 
@@ -73,10 +78,15 @@ PUT localhost:8050/api/v1/products/13860428
 RequestBody:
 {
     "id": "13860428",
+    
     "name": "The Big Lebowski (Blu-ray)",
+    
     "current_price": {
+    
         "value": "100.99",
+        
         "currency_code": "USD"
+        
     }
 }
 
@@ -84,10 +94,15 @@ ResponseStatus: 200OK
 ResponseBody:
 {
     "id": "13860428",
+    
     "name": "The Big Lebowski (Blu-ray)",
+    
     "current_price": {
+    
         "value": "100.49",
+        
         "currency_code": "USD"
+        
     }
 }
 
