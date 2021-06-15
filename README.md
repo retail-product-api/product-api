@@ -98,8 +98,11 @@ RequestBody:
 }
 
 ResponseStatus: 200OK
+
 ResponseBody:
+
 {
+
     "id": "13860428",
     
     "name": "The Big Lebowski (Blu-ray)",
@@ -111,6 +114,7 @@ ResponseBody:
         "currency_code": "USD"
         
     }
+    
 }
 
 
