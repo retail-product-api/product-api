@@ -1,0 +1,4 @@
+com/myretail/productapi/service/ProductServiceImplTest.class
+com/myretail/productapi/repository/PriceRepositoryTest.class
+com/myretail/productapi/ProductApiApplicationTests.class
+com/myretail/productapi/controller/ProductControllerTest.class

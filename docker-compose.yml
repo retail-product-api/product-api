@@ -1,0 +1,6 @@
+version: "3.6"
+services:
+  api:
+    image: api-docker-image
+    ports:
+      - 9091:8050
